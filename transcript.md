@@ -71,6 +71,8 @@ Utilities:
 - cat / less
 - cp / mv
 
+* also man for manual page and flags...
+
 * break?
 
 ## Git
@@ -79,6 +81,8 @@ Utilities:
 - Branches.
 - Commands add, commit, push.
 - Conflict resolution.
+
+About the connection between git and github.
 
 * break?
 

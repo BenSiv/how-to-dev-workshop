@@ -94,6 +94,7 @@ backgroundImage: url("images/background.png")
 ---
 
 ## Linux
+![](images/tux.png)
 
 ---
 
@@ -258,5 +259,76 @@ Show content of file
 ![width:30.2px height:25.2px](images/cocoa-bean.png) ls
 ![width:30.2px height:25.2px](images/cocoa-bean.png) cd
 ![width:30.2px height:25.2px](images/cocoa-bean.png) cat / less
-![width:30.2px height:25.2px](images/cocoa-bean.png) cp / mv
-Copy, move or rename files
+![width:30.2px height:25.2px](images/cocoa-bean.png) mkdir / cp / mv
+Make, copy, move or rename files
+
+---
+
+## Git
+
+---
+
+## Git
+![width:1000px height:463.5px](images/git_diagram.png)
+
+---
+
+## Git
+![width:30.2px height:25.2px](images/cocoa-bean.png) mkdir <dir_name>
+
+---
+
+## Git
+![width:30.2px height:25.2px](images/cocoa-bean.png) mkdir <dir_name>
+![width:30.2px height:25.2px](images/cocoa-bean.png) git init .
+
+---
+
+## Git
+![width:30.2px height:25.2px](images/cocoa-bean.png) mkdir <dir_name>
+![width:30.2px height:25.2px](images/cocoa-bean.png) git init .
+![width:30.2px height:25.2px](images/cocoa-bean.png) git status
+
+---
+
+## Git
+![width:30.2px height:25.2px](images/cocoa-bean.png) nano <file_name>
+Enter some info to file.
+
+---
+
+## Git
+![width:30.2px height:25.2px](images/cocoa-bean.png) nano <file_name>
+![width:30.2px height:25.2px](images/cocoa-bean.png) git status
+
+---
+
+## Git
+![width:30.2px height:25.2px](images/cocoa-bean.png) nano <file_name>
+![width:30.2px height:25.2px](images/cocoa-bean.png) git status
+![width:30.2px height:25.2px](images/cocoa-bean.png) git add <file_name>
+
+---
+
+## Git
+![width:30.2px height:25.2px](images/cocoa-bean.png) nano <file_name>
+![width:30.2px height:25.2px](images/cocoa-bean.png) git status
+![width:30.2px height:25.2px](images/cocoa-bean.png) git add <file_name>
+![width:30.2px height:25.2px](images/cocoa-bean.png) git status
+
+---
+
+## Git
+![width:30.2px height:25.2px](images/cocoa-bean.png) nano <file_name>
+![width:30.2px height:25.2px](images/cocoa-bean.png) git status
+![width:30.2px height:25.2px](images/cocoa-bean.png) git add <file_name>
+![width:30.2px height:25.2px](images/cocoa-bean.png) git status
+![width:30.2px height:25.2px](images/cocoa-bean.png) git commit -m "some commit message"
+
+---
+
+## Docker
+![width:360px height:214px](images/docker.png)
+
+---
+
