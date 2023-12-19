@@ -186,6 +186,17 @@ backgroundImage: url("images/background.png")
 ---
 
 ## Linux
+![width:30.2px height:25.2px](images/cocoa-bean.png) What is going on **.** ?
+
+---
+
+## Linux
+![width:30.2px height:25.2px](images/cocoa-bean.png) What is going on **.** ?
+![width:30.2px height:25.2px](images/cocoa-bean.png) What is going on **here** ?
+
+---
+
+## Linux
 ![width:30.2px height:25.2px](images/cocoa-bean.png) My **~** is at **/home/user/**
 
 ---
@@ -221,7 +232,7 @@ backgroundImage: url("images/background.png")
 ## Linux
 ### Hands-on keyboard!
 ![width:30.2px height:25.2px](images/cocoa-bean.png) Go to cmd
-![width:30.2px height:25.2px](images/cocoa-bean.png) ssh -i how-to-dev_key.pem howtodev@172.160.226.208
+```ssh -i how-to-dev_key.pem howtodev@172.160.226.208```
 
 ---
 
@@ -232,35 +243,49 @@ backgroundImage: url("images/background.png")
 
 ## Linux
 ### Utilities
-![width:30.2px height:25.2px](images/cocoa-bean.png) ls
+```bash
+ls
+```
 List all files in a directory
 
 ---
 
 ## Linux
 ### Utilities
-![width:30.2px height:25.2px](images/cocoa-bean.png) ls
-![width:30.2px height:25.2px](images/cocoa-bean.png) cd
+```bash
+cd
+```
 Change directory
 
 ---
 
 ## Linux
 ### Utilities
-![width:30.2px height:25.2px](images/cocoa-bean.png) ls
-![width:30.2px height:25.2px](images/cocoa-bean.png) cd
-![width:30.2px height:25.2px](images/cocoa-bean.png) cat / less
+```bash
+cat
+less
+```
 Show content of file
 
 ---
 
 ## Linux
 ### Utilities
-![width:30.2px height:25.2px](images/cocoa-bean.png) ls
-![width:30.2px height:25.2px](images/cocoa-bean.png) cd
-![width:30.2px height:25.2px](images/cocoa-bean.png) cat / less
-![width:30.2px height:25.2px](images/cocoa-bean.png) mkdir / cp / mv
+```bash
+touch
+cp
+mv
+```
 Make, copy, move or rename files
+
+---
+
+## Linux
+### Utilities
+```bash
+mkdir
+```
+Make a directory
 
 ---
 
@@ -274,56 +299,77 @@ Make, copy, move or rename files
 ---
 
 ## Git
-![width:30.2px height:25.2px](images/cocoa-bean.png) mkdir <dir_name>
+```bash
+mkdir <dir_name>
+```
 
 ---
 
 ## Git
-![width:30.2px height:25.2px](images/cocoa-bean.png) mkdir <dir_name>
-![width:30.2px height:25.2px](images/cocoa-bean.png) git init .
+```bash
+mkdir <dir_name>
+git init .
+```
 
 ---
 
 ## Git
-![width:30.2px height:25.2px](images/cocoa-bean.png) mkdir <dir_name>
-![width:30.2px height:25.2px](images/cocoa-bean.png) git init .
-![width:30.2px height:25.2px](images/cocoa-bean.png) git status
+```bash
+mkdir <dir_name>
+git init .
+git status
+```
 
 ---
 
 ## Git
-![width:30.2px height:25.2px](images/cocoa-bean.png) nano <file_name>
-Enter some info to file.
+```bash
+nano <file_name>
+echo <content> > <file_name>
+```
+Enter some content to a file.
 
 ---
 
 ## Git
-![width:30.2px height:25.2px](images/cocoa-bean.png) nano <file_name>
-![width:30.2px height:25.2px](images/cocoa-bean.png) git status
+```bash
+nano <file_name>
+echo <content> > <file_name>
+git status
+```
 
 ---
 
 ## Git
-![width:30.2px height:25.2px](images/cocoa-bean.png) nano <file_name>
-![width:30.2px height:25.2px](images/cocoa-bean.png) git status
-![width:30.2px height:25.2px](images/cocoa-bean.png) git add <file_name>
+```bash
+nano <file_name>
+echo <content> > <file_name>
+git status
+git add <file_name>
+```
 
 ---
 
 ## Git
-![width:30.2px height:25.2px](images/cocoa-bean.png) nano <file_name>
-![width:30.2px height:25.2px](images/cocoa-bean.png) git status
-![width:30.2px height:25.2px](images/cocoa-bean.png) git add <file_name>
-![width:30.2px height:25.2px](images/cocoa-bean.png) git status
+```bash
+nano <file_name>
+echo <content> > <file_name>
+git status
+git add <file_name>
+git status
+```
 
 ---
 
 ## Git
-![width:30.2px height:25.2px](images/cocoa-bean.png) nano <file_name>
-![width:30.2px height:25.2px](images/cocoa-bean.png) git status
-![width:30.2px height:25.2px](images/cocoa-bean.png) git add <file_name>
-![width:30.2px height:25.2px](images/cocoa-bean.png) git status
-![width:30.2px height:25.2px](images/cocoa-bean.png) git commit -m "some commit message"
+```bash
+nano <file_name>
+echo <content> > <file_name>
+git status
+git add <file_name>
+git status
+git commit -m "some commit message"
+```
 
 ---
 
@@ -333,13 +379,17 @@ Enter some info to file.
 ---
 
 ## Docker
-![width:30.2px height:25.2px](images/cocoa-bean.png) docker build --tag "how-to-dev" .
+```bash
+docker build --tag "how-to-dev" .
+```
 Building a new docker image based on the 'Dockerfile' in the current directory.
 
 ---
 
 ## Docker
-![width:30.2px height:25.2px](images/cocoa-bean.png) docker image list
+```bash
+docker image list
+```
 ```
 REPOSITORY   TAG       IMAGE ID       CREATED              SIZE
 how-to-dev   latest    d211d6bfa5ab   About a minute ago   202MB
@@ -348,27 +398,48 @@ how-to-dev   latest    d211d6bfa5ab   About a minute ago   202MB
 ---
 
 ## Docker
-![width:30.2px height:25.2px](images/cocoa-bean.png) docker run --interactive --tty --name <my_name> how-to-dev bash
-![width:30.2px height:25.2px](images/cocoa-bean.png) docker run -it --name <my_name> how-to-dev bash
+```bash
+docker run --interactive --tty --name <my_name> how-to-dev bash
+```
 
 ---
 
 ## Docker
-![width:30.2px height:25.2px](images/cocoa-bean.png) docker container list
-![width:30.2px height:25.2px](images/cocoa-bean.png) docker container list --all
+```bash
+docker run -it --name <my_name> how-to-dev bash
+```
 
 ---
 
 ## Docker
-![width:30.2px height:25.2px](images/cocoa-bean.png) docker run -it --name <my_name> how-to-dev bash --detach
+```bash
+docker container list
+docker container list --all
+```
 
 ---
 
 ## Docker
-![width:30.2px height:25.2px](images/cocoa-bean.png) docker container list
-![width:30.2px height:25.2px](images/cocoa-bean.png) docker container list --all
+```bash
+docker run \
+    -tty \
+    --detach \
+    --name <my_name> \
+    how-to-dev \
+    bash
+```
 
 ---
 
 ## Docker
-![width:30.2px height:25.2px](images/cocoa-bean.png) docker exec -t ben-sivan bash -c "ls"
+```bash
+docker container list
+docker container list --all
+```
+
+---
+
+## Docker
+```bash
+docker exec -t <my_name> bash -c "ls"
+```
