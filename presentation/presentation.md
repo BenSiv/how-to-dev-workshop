@@ -379,6 +379,11 @@ git commit -m "some commit message"
 ---
 
 ## Docker
+![](images/docker_schema.png)
+
+---
+
+## Docker
 ```bash
 docker build --tag "how-to-dev" .
 ```
