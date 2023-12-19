@@ -6,7 +6,8 @@ backgroundImage: url("images/background.png")
 # marp presentation.md --output presentation.pdf --allow-local-files
 ---
 
-## How To Dev - Workshop
+# How To Dev
+## Workshop
 
 ---
 
@@ -215,6 +216,16 @@ backgroundImage: url("images/background.png")
 
 ## Linux
 ![width:30.2px height:25.2px](images/cocoa-bean.png) Don't **Bash** your head against the keyboard
+
+---
+
+## Linux
+![width:30.2px height:25.2px](images/cocoa-bean.png) You don't need to say goodbye to your Windows machine **WSL** to the rescue
+
+---
+
+## Linux
+### Hands-on!
 
 ---
 
@@ -448,3 +459,13 @@ docker container list --all
 ```bash
 docker exec -t <my_name> bash -c "ls"
 ```
+
+---
+
+# Bye
+
+**Ben Sivan**
+Data Scientist
+![width:500px height:10px](images/line.png)
++972-546925522
+ben.sivan@celleste-bio.com

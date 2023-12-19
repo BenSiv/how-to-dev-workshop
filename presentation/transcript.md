@@ -51,6 +51,7 @@ First lets talk about the interactions between those three enablers, and then we
 - Linux's philosophy: do one thing and do it well.
 - Open source, transparency.
 - Common utilities.
+- WSL
 
 Directory structure:
 / root directory for the file system
@@ -69,7 +70,8 @@ Utilities:
 - ls
 - cd
 - cat / less
-- cp / mv
+- cp / mv / touch
+- mkdir
 
 * also man for manual page and flags...
 
