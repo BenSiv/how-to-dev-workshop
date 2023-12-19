@@ -120,7 +120,7 @@ backgroundImage: url("images/background.png")
 ![width:30.2px height:25.2px](images/cocoa-bean.png) Most computations runs on **servers**
 ![width:30.2px height:25.2px](images/cocoa-bean.png) Most **servers** runs **Linux** 
 ![width:30.2px height:25.2px](images/cocoa-bean.png) Most effective in resources
-![width:30.2px height:25.2px](images/cocoa-bean.png) **Linux** Philosophy
+![width:30.2px height:25.2px](images/cocoa-bean.png) **Linux** philosophy
 
 ---
 
@@ -208,20 +208,20 @@ backgroundImage: url("images/background.png")
 ---
 
 ## Linux
-### Hand-on keyboard!
+### Hands-on keyboard!
 
 ---
 
 ## Linux
-### Hand-on keyboard!
+### Hands-on keyboard!
 ![width:30.2px height:25.2px](images/cocoa-bean.png) Go to cmd
 
 ---
 
 ## Linux
-### Hand-on keyboard!
+### Hands-on keyboard!
 ![width:30.2px height:25.2px](images/cocoa-bean.png) Go to cmd
-![width:30.2px height:25.2px](images/cocoa-bean.png) ssh 
+![width:30.2px height:25.2px](images/cocoa-bean.png) ssh -i how-to-dev_key.pem howtodev@172.160.226.208
 
 ---
 
@@ -332,3 +332,43 @@ Enter some info to file.
 
 ---
 
+## Docker
+![width:30.2px height:25.2px](images/cocoa-bean.png) docker build --tag "how-to-dev" .
+Building a new docker image based on the 'Dockerfile' in the current directory.
+
+---
+
+## Docker
+![width:30.2px height:25.2px](images/cocoa-bean.png) docker image list
+```
+REPOSITORY   TAG       IMAGE ID       CREATED              SIZE
+how-to-dev   latest    d211d6bfa5ab   About a minute ago   202MB
+```
+
+---
+
+## Docker
+![width:30.2px height:25.2px](images/cocoa-bean.png) docker run --interactive --tty --name <my_name> how-to-dev bash
+![width:30.2px height:25.2px](images/cocoa-bean.png) docker run -it --name <my_name> how-to-dev bash
+
+---
+
+## Docker
+![width:30.2px height:25.2px](images/cocoa-bean.png) docker container list
+![width:30.2px height:25.2px](images/cocoa-bean.png) docker container list --all
+
+---
+
+## Docker
+![width:30.2px height:25.2px](images/cocoa-bean.png) docker run -it --name <my_name> how-to-dev bash --detach
+
+---
+
+## Docker
+![width:30.2px height:25.2px](images/cocoa-bean.png) docker container list
+![width:30.2px height:25.2px](images/cocoa-bean.png) docker container list --all
+
+---
+
+## Docker
+![width:30.2px height:25.2px](images/cocoa-bean.png) docker exec -t ben-sivan bash -c "ls"
